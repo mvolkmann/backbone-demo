@@ -1,0 +1,108 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>View and Maintain Patient Information</title>
+
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="lib/css3tree/css3tree.css">
+    <link rel="stylesheet/less" href="demo.less">
+
+    <script src="lib/less-1.3.3.min.js"></script>
+    <script data-main="demo" src="lib/require.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="title">View and Maintain Patient Information</div>
+    </header>
+
+    <div id="nav"></div>
+
+    <div id="forms">
+      <h4>Patient Information</h4>
+      <div id="patient" class="form-horizontal">
+        <div class="control-group">
+          <label class="control-label" for="patientId">Patient ID</label>
+          <div class="controls">
+            <input id="patientId" type="text" size="15" disabled/>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="altPatientId">Alternate Patient ID</label>
+          <div class="controls">
+            <input id="altPatientId" type="text" size="15" disabled/>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="name">Name</label>
+          <div class="controls">
+            <input id="name" type="text" size="15" disabled/>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="location">Location</label>
+          <div class="controls">
+            <input id="location" type="text" size="15" disabled/>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="physician">Physician</label>
+          <div class="controls">
+            <input id="physician" type="text" size="15" disabled/>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="comment">Comment</label>
+          <div class="controls">
+            <textarea id="comment" type="text" rows="3" cols="60" disabled></textarea>
+          </div>
+        </div>
+      </div>
+
+      <h4>Specimen Information</h4>
+      <div id="specimen" class="form-horizontal">
+        <div class="control-group">
+          <label class="control-label" for="labId">Lab ID</label>
+          <div class="controls">
+            <input id="labId" type="text" size="15" disabled/>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="type">Type</label>
+          <div class="controls">
+            <input id="type" type="text" size="15" disabled/>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="source">Source</label>
+          <div class="controls">
+            <input id="source" type="text" size="15" disabled/>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="collectionDate">Collection Date</label>
+          <div class="controls">
+            <input id="collectionDate" type="text" size="15" disabled/>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="collectionTime">Collection Time</label>
+          <div class="controls">
+            <input id="collectionTime" type="text" size="15" disabled/>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="comment">Comment</label>
+          <div class="controls">
+            <textarea id="comment" type="text" rows="3" cols="60" disabled></textarea>
+          </div>
+        </div>
+      </div>
+    </div> <!-- forms -->
+
+    <footer>
+      <span id="dateTime"></span>
+      <span id="appName">VITEK 2 technology</span>
+    </footer>
+  </body>
+</html>

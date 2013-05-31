@@ -1,0 +1,82 @@
+@spacing: 10px;
+
+.area {
+  background-color: White;
+  border: solid black 3px;
+  border-radius: @spacing;
+  padding-top: @spacing;
+  padding-left: @spacing;
+  padding-right: @spacing;
+}
+
+.banner {
+  background-color: DarkBlue;
+  border-radius: @spacing;
+  color: white;
+  height: 20px;
+  padding: @spacing;
+}
+
+.form-horizontal {
+  .control-group {
+    margin-bottom: @spacing;
+  }
+  .control-label {
+    padding-top: 0;
+  }
+}
+
+.title {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+body {
+  background-color: LightBlue;
+  padding: @spacing;
+}
+
+footer {
+  .banner;
+  clear: left;
+  margin-top: @spacing;
+}
+
+header {
+  .banner;
+}
+
+#nav {
+  .area;
+  float: left;
+  margin-bottom: @spacing;
+  margin-right: @spacing;
+  margin-top: @spacing;
+  width: 200px;
+}
+
+#nav > ul {
+  margin: @spacing;
+}
+
+#appName {
+  float: right;
+  font-style: italic;
+}
+
+#dateTime {
+  font-style: italic;
+}
+
+#forms {
+  float: left;
+}
+
+#patient {
+  .area;
+}
+
+#specimen {
+  .area;
+  margin-bottom: @spacing;
+}
